@@ -1,5 +1,9 @@
 ## Custom turtlebot 
 
+### Prerequisites
+1. Gazebo classic
+2. ROS 1
+
 ### Setup 
 
 Clone the repo into your ros workspace 
@@ -29,7 +33,9 @@ Open another terminal and run
 ```
     rosrun custom_turtlebot move_around.py
 ```
-### Keyboard commands
+
+### Usage
+Keyboard commands are used to control the motion of the vehicle. Use the following keyboardbinding to move the vehicle.
 ```
 Moving around:
    u(turn  left)                i(forward)          o(turn right)
